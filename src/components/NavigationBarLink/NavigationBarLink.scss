@@ -1,0 +1,32 @@
+.navigation-bar-link{
+  display: flex;
+  color: white;
+  background: #0c0c0c;
+  transition: background-color 0.5s;
+  margin-left: 20px;
+  width: 150px;
+  min-width:150px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.navigation-bar-link__active{
+  min-width: 150px;
+  display: flex;
+  color: white;
+  transition: background-color 0.5s;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #131721;
+  border-radius: 5px;
+}
+
+.navigation-bar-link:hover{
+  background-color: #131721;
+}

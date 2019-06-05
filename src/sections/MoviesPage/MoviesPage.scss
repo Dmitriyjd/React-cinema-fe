@@ -1,0 +1,146 @@
+.movies-page{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.movies-page__wrapper{
+  display: flex;
+  flex:1;
+
+  flex-direction: column;
+  min-width: 1120px;
+}
+
+.movies-page__content{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 10% 1px 10%;
+  min-width: 900px;
+}
+
+.movies-page__content-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.title__input{
+  min-width:80%;
+  border: none;
+  border-bottom: 2px solid #f55263;
+  margin-bottom: 10px;
+  min-height: 25px;
+  font-size: 15px;
+  background: #030201;
+  color: #b3b3b3;
+  transition: opacity 0.8s;
+}
+
+.movies-page__title {
+  padding:10px 50px 10px 500px;
+  min-height: 800px;
+}
+
+.title__input-wrapper {
+  background: rgba(3, 2, 1, 0.1);
+  padding:10px 100px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  justify-content: center;
+}
+
+.title__text{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.title-settings{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.title-settings__wrapper{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.title-submit__wrapper{
+  width:50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-settings__submit{
+  margin: 0 5px 0 10px;
+  width: 120px;
+  max-height: 30px;
+  min-width: 120px;
+  background: #f55364;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: opacity 0.8s;
+}
+
+.title-settings__search-option{
+  margin: 0 5px 0 10px;
+  width: 100px;
+  background: #f55263;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.4s;
+  color: white;
+}
+
+.second-title__sort-button {
+  margin: 10px 10px;
+  padding: 5px 10px;
+  border: none;
+  color: black;
+  transition: opacity 0.4s;
+}
+
+.movies-page__second-title {
+  padding: 0 100px 0 100px;
+  background: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row;
+}
+
+.results__wrapper {
+  padding: 10px;
+  display: flex;
+  width: 30%;
+  align-items: flex-start;
+}
+
+.second-title__sort-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+}
+
+.title-settings__search-option-active{
+  background-color: rgb(60, 60, 60);
+  outline: 0;
+}
+
+.movies-page__movies{
+  display:flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}

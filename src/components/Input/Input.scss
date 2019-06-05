@@ -1,0 +1,23 @@
+.input-component:invalid {
+  background-color: #ffcac8;
+  border: red 1px solid;
+}
+
+.input-component:focus,
+.input-component:hover {
+  opacity: 1;
+  outline-width: 0;
+}
+
+.input-component{
+  background-color: #bac0cb;
+  height: 35px;
+  padding: 8px;
+  font-size: 20px;
+  color: black;
+  border-radius: 16px;
+  border: 0;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+

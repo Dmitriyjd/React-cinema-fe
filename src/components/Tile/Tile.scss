@@ -1,0 +1,45 @@
+.tile {
+  text-decoration: none;
+  width: 250px;
+  min-height: 300px;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tile__image {
+  height: 80%;
+  background: transparent no-repeat;
+  background-size: 100%;
+}
+
+.tile__details {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  color: black;
+}
+
+.tile__name{
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.tile__release-year-wrapper{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.tile__release-year {
+  padding: 0 5px;
+  background: white;
+  border: #6f747a 1px solid;
+  border-radius: 3px;
+}
+
+.tile__movie-genres {
+  margin-top: 10px;
+}
